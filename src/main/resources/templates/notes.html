@@ -38,7 +38,7 @@
     </tr>
     </thead>
     <tbody>
-    <tr th:each="note : ${notesList.values()}">
+    <tr th:each="note : ${notesList}">
         <td th:text="${note.id}"></td>
         <td th:text="${note.title}"></td>
         <td th:text="${note.content}"></td>
